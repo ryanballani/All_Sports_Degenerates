@@ -1,0 +1,13 @@
+.App {
+  text-align: left;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
