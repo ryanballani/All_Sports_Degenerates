@@ -1,2 +1,55 @@
-/* App.css */
-... (truncated for clarity, will be written in actual code)
+.app {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #ffb612; /* Steelers yellow */
+  background-color: #101820; /* Steelers black */
+  min-height: 100vh;
+}
+
+.app-title {
+  padding-top: 24px;
+  margin-bottom: 16px;
+  font-size: 2.5rem;
+  color: #ffb612; /* Steelers yellow */
+}
+
+.draft-order {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.draft-slot {
+  padding: 12px 24px;
+  border: 2px solid #ffb612;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.draft-slot.current {
+  background-color: #ffb612;
+  color: #101820;
+}
+
+.reset-button, .undo-button, .snake-toggle-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffb612;
+  color: #101820;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.reset-button:hover, .undo-button:hover, .snake-toggle-button:hover {
+  background-color: #e6a800;
+}
